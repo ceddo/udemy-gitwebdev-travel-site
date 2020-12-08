@@ -1,4 +1,18 @@
 .wrapper {
     padding-left: 1rem;
     padding-right: 1rem;
+    /* for bigger screens, ensure content does not exceed natural reading width */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    &--medium {
+        max-width: 976px;
+    }
+
+    /* nested wrappers.. don't want stacked padding! */
+    .wrapper {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
