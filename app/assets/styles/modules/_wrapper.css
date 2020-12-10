@@ -7,9 +7,9 @@
     margin-right: auto;
     
     &--medium {
-        max-width: 976px;
+        max-width: 976px; 
     }
-
+    
     /* nested wrappers.. don't want stacked padding! */
     .wrapper {
         padding-right: 0;
