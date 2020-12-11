@@ -1,8 +1,9 @@
 .wrapper {
     padding-left: 1rem;
     padding-right: 1rem;
+    overflow: hidden;
     /* for bigger screens, ensure content does not exceed natural reading width */
-    max-width: 1200px;
+    max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
     
@@ -10,6 +11,14 @@
         max-width: 976px; 
     }
     
+    &--b-margin {
+        margin-bottom: 1rem;
+
+        @mixin atSmall {
+            margin-bottom: 3.875rem;
+        }
+    }
+
     /* nested wrappers.. don't want stacked padding! */
     .wrapper {
         padding-right: 0;

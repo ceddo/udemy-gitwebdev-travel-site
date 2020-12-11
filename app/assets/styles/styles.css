@@ -1,8 +1,8 @@
 @import 'normalize.css';
 @import 'base/_global';
+@import 'base/_mixins.css';
 @import 'modules/_wrapper.css';
 @import 'base/_variables';
-@import 'base/_mixins.css';
 @import 'modules/_btn';
 @import 'modules/_large-hero';
 @import 'modules/_wrapper';
